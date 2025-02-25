@@ -1,0 +1,12 @@
+<%- include('partials/header.ejs') %>
+
+<% if(locals.newblog){ %> 
+    <form action="/final" method="post">
+        <h1>Edit your Blog</h1>
+        <textarea name="changesmaked" class="feedback-input" placeholder="edit Blog"><% locals.newblog %></textarea>
+        <input class="savechanges" type="submit" value="commit"/>
+    </form>
+<% } %>
+
+
+<%- include('partials/footer.ejs') %>

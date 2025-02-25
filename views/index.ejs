@@ -1,0 +1,21 @@
+<%- include('partials/header.ejs') %>
+
+<h1>Write your blog in given box</h1>
+<form action="/" method="post">
+    <textarea name="text" class="feedback-input" placeholder="Write Blog"></textarea>
+    <br>
+    <input type="submit" value="SUBMIT" />
+</form>
+<br>
+
+<% if(locals.content){ %> 
+    <h2>Your blog</h2>
+    <form class="side" action="/edit" method="post">
+        <textarea name="editcontent" placeholder="Write Blog" class="blogcontent"><%= locals.content %></textarea>
+        <br>
+        <input class="edit" type="submit" value="edit"/>
+    </form>
+<% } %>
+
+
+<%-include("partials/footer.ejs") %>

@@ -1,0 +1,20 @@
+hello guy'
+
+My self AAKARSH VERMA nice to meet you guy's
+
+This code is about milti-page website with using ( EJS.js , express , body-parser)
+     
+    you can download these module in you VS code terminal using npm
+    
+    step 1 = run terminal and initialize npm
+    step 2 = using npm install (npm install express) in terminal
+    step 3 = using npm install (npm install body-parser) in terminal as middleware for requests
+    step 4 = using npm install (npm install -g nodemon) in terminal for running index.js code in server (3000)
+
+    After installing all this modules you can run this code in your PC and see my small work 
+
+    Have a nice day
+
+    Thank you guy'
+
+    
